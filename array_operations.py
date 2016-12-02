@@ -10,11 +10,10 @@ def reverse(arr):
     return arr[::-1]
 
 
-def create_2d_arr(m, n, init_element=None):
+def create_2d_arr(rows, columns, init_element=None):
     """Create a 2-d array"""
-    # m is the rows, n is the columns
-    # (So n should be on the outer here)
-    arr = [[init_element] * m] * n
+    # rows should be the "outer" loop here
+    arr = [[init_element for j in range(columns)] for i in range(rows)]
     return arr
 
 
