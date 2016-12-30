@@ -1,0 +1,11 @@
+# .inputrc
+
+# Some things to make life easier
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+# Only for MAC (The MAC filesystem doesn't care about case)
+set completion-ignore-case on
+
+# Keybindings (Only for MAC)
+"\033u": history-search-backward # Option + Up
+"\033d": history-search-forward  # Option + Down

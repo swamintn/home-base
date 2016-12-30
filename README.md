@@ -1,2 +1,7 @@
-# python-base
-Small test python stubs and code
+# home-base
+
+dot_files:
+    Contains dot files with vital oft-used shortcuts
+
+python:
+    Mini-tutorials about python operations
