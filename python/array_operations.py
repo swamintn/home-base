@@ -17,3 +17,11 @@ def create_2d_arr(rows, columns, init_element=None):
     return arr
 
 
+def reverse_list_in_place(l):
+    """Reverse a list in place"""
+    # Go from start to half of list. Ok if we miss
+    # middle element. Use negative indexing to reverse
+    # Take care that negative indices start from -1 onwards
+    for i in range(len(l) / 2):
+        l[i], l[-(i+1)] = l[-(i+1)], l[i]
+
