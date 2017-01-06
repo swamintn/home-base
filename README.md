@@ -5,3 +5,6 @@ dot_files:
 
 python:
     Mini-tutorials about python operations
+
+cpp:
+    C++ tests and tutorials
