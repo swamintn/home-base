@@ -25,6 +25,9 @@ set number
 set showmatch
 " intelligent comments
 set comments=sl:/*,mb:\ *,elx:\ */
+" incremental and highlighted search
+set incsearch
+set hlsearch
 " keybindings
 nnoremap <C-a> <Home>
 nnoremap <C-e> <End>
