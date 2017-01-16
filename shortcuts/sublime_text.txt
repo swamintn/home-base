@@ -1,0 +1,4 @@
+# Open Package Control
+Windows, Linux: ctrl+shift+p
+Mac: cmd+shift+p
+
