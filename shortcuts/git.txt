@@ -1,0 +1,4 @@
+# Add a global .gitignore file
+# (Put file list in ~/.gitignore file. If you use some other location, use
+#  that in the command below)
+git config --global core.excludesfile ~/.gitignore
