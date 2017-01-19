@@ -44,3 +44,26 @@ def digital_root(num):
         return 0
     return ((abs(num)-1) % 9) + 1
 
+
+def gcd_two_numbers(a, b):
+    """
+    Returns GCD of a and b
+    """
+    while b:
+        a, b = b, a % b
+    return a
+
+def lcm_two_numbers(a, b):
+    """
+    Returns LCM of a and b
+    """
+    return (a*b)/gcd_two_numbers(a, b)
+
+def gcd(in_list):
+    """Returns gcd of all numbers in in_list"""
+    return reduce(gcd_two_numbers, in_list)
+
+def lcm(in_list):
+    """Returns lcm of all numbers in in_list"""
+    return reduce(lcm_two_numbers, in_list)
+
