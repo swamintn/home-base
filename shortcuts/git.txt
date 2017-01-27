@@ -2,3 +2,6 @@
 # (Put file list in ~/.gitignore file. If you use some other location, use
 #  that in the command below)
 git config --global core.excludesfile ~/.gitignore
+
+# Make info given by git commands and git diff colored!
+git config --global color.ui auto
