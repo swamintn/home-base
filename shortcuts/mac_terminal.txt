@@ -1,0 +1,16 @@
+# Home and end in terminal
+For home and end keys, bind some combination to send hex codes 0x01 and 0x05
+Eg: Alt + left-arrow = 0x01
+    Alt + right-arrow = 0x05
+
+# History search forward and backward
+Map some combination (possibly escape sequences) to history-search-backward
+and history-search-forward in inputrc and map some combination to send
+those sequences
+Eg: In .inputrc,
+        "\033u": history-search-backward # Esc + u
+        "\033d": history-search-forward  # Esc + d
+    Then add these mappings,
+    Alt + up-arrow = Esc + u
+    Alt + down-arrow = Esc + d
+
